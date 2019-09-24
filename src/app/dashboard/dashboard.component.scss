@@ -1,0 +1,15 @@
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+
+.rail {
+  padding:10px;
+  cursor: pointer;
+}
+agm-map {
+  width: 1000px;
+  height: 500px; /* height is required */
+}
